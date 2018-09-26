@@ -7,7 +7,6 @@ from keras.layers import LSTM, Embedding, TimeDistributed, Dense, RepeatVector, 
 from keras.preprocessing import image, sequence
 from keras.callbacks import ModelCheckpoint
 import pickle
-from keras.layers import merge
 
 EMBEDDING_DIM = 128
 
